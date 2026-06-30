@@ -14,6 +14,12 @@ Create a clean and unified data source that can be used by multiple platforms th
   - Aid centers
 - Outputs structured data in JSON format
 
+## 🚀 First steps
+
+Build initial ETL pipeline
+Create clean datasets
+Prepare for API development
+
 ## 🧠 Data Structure
 
 ```json
@@ -27,11 +33,4 @@ Create a clean and unified data source that can be used by multiple platforms th
   "fuente": ""
 }
 
-## 🚀 First steps
 
-Build initial ETL pipeline
-Create clean datasets
-Prepare for API development
-
-## 🤝 Contribute
-If you want to help, feel free to fork this repository or open issues.
