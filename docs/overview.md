@@ -35,7 +35,8 @@ Los datos procesados se convierten a un formato JSON estructurado:
   "ubicacion": "Valencia"
 }
 
-4.Objetivo final
+
+4. Objetivo final
 El objetivo es crear una fuente de datos limpia y unificada que:
 
 Reduzca la duplicación y los errores
@@ -79,7 +80,8 @@ The processed data is converted into a structured JSON format:
   "nombre": "Ana Lopez",
   "cedula": "12345678",
   "ubicacion": "Valencia"
-}``
+}
+
 
 4. Final objective
 The objective is to build a clean and unified data source that:
