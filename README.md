@@ -20,6 +20,9 @@ Build initial ETL pipeline
 Create clean datasets
 Prepare for API development
 
+## 🤝 Contribute
+If you want to help, feel free to fork this repository or open issues.
+
 ## 🧠 Data Structure
 
 ```json
@@ -33,8 +36,7 @@ Prepare for API development
   "fuente": ""
 }```
 
-## 🤝 Contribute
-If you want to help, feel free to fork this repository or open issues.
+
 
 
 
