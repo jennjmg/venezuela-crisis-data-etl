@@ -29,11 +29,11 @@ Los datos procesados se convierten a un formato JSON estructurado:
 
 ```json
 {
-  «tipo»: «desaparecido»,
-  «nombre»: «Ana López»,
-  «cédula»: «12345678»,
-  «ubicación»: «Valencia»
-}``
+  "tipo": "desaparecido",
+  "nombre": "Ana Lopez",
+  "cedula": "12345678",
+  "ubicacion": "Valencia"
+}
 
 4.Objetivo final
 El objetivo es crear una fuente de datos limpia y unificada que:
