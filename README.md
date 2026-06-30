@@ -26,3 +26,12 @@ Create a clean and unified data source that can be used by multiple platforms th
   "timestamp": "",
   "fuente": ""
 }
+
+## 🚀 First steps
+
+Build initial ETL pipeline
+Create clean datasets
+Prepare for API development
+
+## 🤝 Contribute
+If you want to help, feel free to fork this repository or open issues.
