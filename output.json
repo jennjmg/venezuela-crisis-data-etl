@@ -1,0 +1,266 @@
+[
+  {
+    "id_caso": "62b98696-0a02-5f29-af16-82650aa0420f",
+    "cedula": null,
+    "tipo": "desaparecido",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "f0660215-f7b4-5471-936e-2335dca4446e",
+    "cedula": "23456789",
+    "tipo": "desaparecido",
+    "nombre": "Luis Martinez",
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "ee26f336-9343-5424-9222-86ad3885f6d6",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "38b58928-c97c-50ef-add0-6f86affab83e",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": "Barquisimeto",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "d3ee0de6-b2a5-5035-aa1c-25e6402fbaaa",
+    "cedula": "87654321",
+    "tipo": "desaparecido",
+    "nombre": "Maria Fernanda",
+    "ubicacion": "Maracay",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "8a2d1ebc-5ea9-5174-a285-aaf0310c16c8",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Mérida",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "f7453bf2-66e3-522a-bd83-34b784b3dc6e",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": null,
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "1171769b-3212-5e4c-a196-71f4ff1767e9",
+    "cedula": "11223344",
+    "tipo": "desaparecido",
+    "nombre": "Pedro Rodriguez",
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "0a091048-69cb-54d4-b7b0-501330b6dbdd",
+    "cedula": "99887766",
+    "tipo": "desaparecido",
+    "nombre": "Ana Maria",
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "abc595b0-b1b2-52c9-b6a4-b70923c15655",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": null,
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "2cc450b9-f681-5e11-b2f8-519aad1c4f8d",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "08e5348e-7994-5892-ab45-549562a4bf9a",
+    "cedula": "44556677",
+    "tipo": "desaparecido",
+    "nombre": "Carlos Diaz",
+    "ubicacion": "Maracay",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "de65772a-ea98-5a0b-8662-8ad40757fb09",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": null,
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "8c4ada2c-9482-5120-9bb8-a9bd3edfed15",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "3109c600-bfbd-50fa-afd0-858e1781fefe",
+    "cedula": "55443322",
+    "tipo": "desaparecido",
+    "nombre": "Luisana Rodriguez",
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "5838cecc-93b6-59bc-9d0a-c6993821d183",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Mérida",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "20ee379f-ed9f-5fcd-a37e-a99cc2951137",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": null,
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "9b93f841-a30f-55b0-af6d-d9c6af400527",
+    "cedula": "66778899",
+    "tipo": "desaparecido",
+    "nombre": "Jose Perez",
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "1b07b90d-473e-5b16-8364-16e6fe0f1856",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "dcdb1a69-e611-5e4a-8c30-6c55821372bd",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": null,
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "7926e81a-4150-5d4a-876f-5b95c15e1080",
+    "cedula": "22334455",
+    "tipo": "desaparecido",
+    "nombre": "Andrea Lopez",
+    "ubicacion": "Maracay",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "1e5a1f9c-64b5-5fdf-a45d-9e44083c9056",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "6eeba53c-3dc8-5cf4-aab4-07e0e4d73f75",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": "Mérida",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "547fdd39-01bd-5cf3-91fd-4eea84ee402d",
+    "cedula": "33445566",
+    "tipo": "desaparecido",
+    "nombre": "Miguel Torres",
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "d0b7e686-c690-59f2-b2b8-302577488a07",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Maracay",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "33b622ec-dcfd-518a-825b-2b40f10c3261",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": "Caracas Chacao",
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "7ad546e0-04ae-539d-b2c6-b10d4870f8cb",
+    "cedula": "55667788",
+    "tipo": "desaparecido",
+    "nombre": "Juan Gomez",
+    "ubicacion": "Barquisimeto",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "9b635207-8ef2-591d-b41e-055ef5f26880",
+    "cedula": null,
+    "tipo": "necesita rescate",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "598b4fa6-e072-5f5c-8c27-fe9cd972c6b6",
+    "cedula": null,
+    "tipo": "centro de acopio",
+    "nombre": null,
+    "ubicacion": "Maracay",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "f02cae7a-7995-5cd6-9360-3de489f6e7e5",
+    "cedula": null,
+    "tipo": "otro",
+    "nombre": null,
+    "ubicacion": "Caracas",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "6e3446e1-5940-59a8-baaf-fc8a6571960b",
+    "cedula": null,
+    "tipo": "otro",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "62b98696-0a02-5f29-af16-82650aa0420f",
+    "cedula": null,
+    "tipo": "desaparecido",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  },
+  {
+    "id_caso": "cc6aa152-23d7-5281-b373-fd8401ae9e4f",
+    "cedula": "12345678",
+    "tipo": "desaparecido",
+    "nombre": null,
+    "ubicacion": "Valencia",
+    "fecha_registro": "2026-06-30"
+  }
+]
