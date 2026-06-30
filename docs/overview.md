@@ -33,7 +33,8 @@ Los datos procesados se convierten a un formato JSON estructurado:
   "nombre": "Ana Lopez",
   "cedula": "12345678",
   "ubicacion": "Valencia"
-}```
+}
+```
 
 
 4. Objetivo final
@@ -80,7 +81,8 @@ The processed data is converted into a structured JSON format:
   "nombre": "Ana Lopez",
   "cedula": "12345678",
   "ubicacion": "Valencia"
-}```
+}
+```
 
 
 4. Final objective
