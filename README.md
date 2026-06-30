@@ -31,6 +31,11 @@ Prepare for API development
   "ubicacion": "",
   "timestamp": "",
   "fuente": ""
-}
+}```
+
+## 🤝 Contribute
+If you want to help, feel free to fork this repository or open issues.
+
+
 
 
