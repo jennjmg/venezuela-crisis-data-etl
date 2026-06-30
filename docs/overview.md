@@ -35,6 +35,12 @@ Los datos procesados se convierten a un formato JSON estructurado:
   «ubicación»: «Valencia»
 }
 
+4.Objetivo final
+El objetivo es crear una fuente de datos limpia y unificada que:
+
+Reduzca la duplicación y los errores
+Permita compartir datos entre plataformas
+Facilite la creación de API y sistemas en tiempo real para la respuesta humanitaria
 
 ------------------
 
@@ -74,3 +80,10 @@ The processed data is converted into a structured JSON format:
   "cedula": "12345678",
   "ubicacion": "Valencia"
 }
+
+4. Final objective
+The objective is to build a clean and unified data source that:
+
+Reduces duplication and errors
+Enables data sharing across platforms
+Supports the creation of APIs and real-time systems for humanitarian response
