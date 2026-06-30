@@ -1,37 +1,52 @@
-# Venezuela Crisis Data ETL 🇻🇪
+CAST
 
-This project aims to collect, clean, and standardize crisis-related data during emergencies in Venezuela.
+# Venezuela Crisis Data ETL
+Este proyecto tiene como objetivo construir un sistema de procesamiento de datos para apoyar la respuesta ante situaciones de crisis en Venezuela.
 
-## 📌 Objective
-Create a clean and unified data source that can be used by multiple platforms through APIs.
+El sistema recoge información no estructurada (redes sociales, mensajería, reportes manuales), la procesa y la transforma en un formato estructurado.
 
-## 🔧 What this project does
-- Extracts raw data from social media and reports
-- Cleans and standardizes information
-- Identifies:
-  - Missing persons
-  - Rescue requests
-  - Aid centers
-- Outputs structured data in JSON format
+### Objetivo
 
-## 🚀 First steps
+Crear una fuente de datos unificada que:
+- Reduzca errores y duplicados
+- Permita compartir información entre plataformas
+- Sirva como base para APIs y herramientas de ayuda
 
-Build initial ETL pipeline
-Create clean datasets
-Prepare for API development
-
-## 🤝 Contribute
-If you want to help, feel free to fork this repository or open issues.
-
-## 🧠 Data Structure
+### Estructura de datos
 
 ```json
 {
-  "id": "",
+  "id_caso": "",
+  "cedula": "",
   "tipo": "",
   "nombre": "",
-  "cedula": "",
   "ubicacion": "",
-  "timestamp": "",
-  "fuente": ""
+  "fecha_registro": ""
+}
+```
+---------
+
+ENG
+
+# Venezuela Crisis Data ETL
+This project aims to build a data processing system to support crisis response efforts in Venezuela.
+The system collects unstructured data (social media, messaging, manual reports), processes it, and transforms it into structured datasets.
+
+### Objective
+Create a unified data source that:
+
+Reduces errors and duplication
+Enables data sharing across platforms
+Serves as a base for APIs and response tools
+
+### Data structure
+
+```json
+{
+  "id_caso": "",
+  "cedula": "",
+  "tipo": "",
+  "nombre": "",
+  "ubicacion": "",
+  "fecha_registro": ""
 }
