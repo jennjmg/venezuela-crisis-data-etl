@@ -1,2 +1,28 @@
-# venezuela-crisis-data-etl
-ETL pipeline to collect, clean, and standardize crisis data (missing people, rescue requests, aid centers) in Venezuela. The goal is to centralize information and provide a clean dataset for APIs and humanitarian platforms.
+# Venezuela Crisis Data ETL 🇻🇪
+
+This project aims to collect, clean, and standardize crisis-related data during emergencies in Venezuela.
+
+## 📌 Objective
+Create a clean and unified data source that can be used by multiple platforms through APIs.
+
+## 🔧 What this project does
+- Extracts raw data from social media and reports
+- Cleans and standardizes information
+- Identifies:
+  - Missing persons
+  - Rescue requests
+  - Aid centers
+- Outputs structured data in JSON format
+
+## 🧠 Data Structure
+
+```json
+{
+  "id": "",
+  "tipo": "",
+  "nombre": "",
+  "cedula": "",
+  "ubicacion": "",
+  "timestamp": "",
+  "fuente": ""
+}
