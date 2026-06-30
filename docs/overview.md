@@ -2,47 +2,61 @@ CAST
 
 ## Resumen
 
-Este proyecto se centra en la creación de un sistema de procesamiento de datos para apoyar las iniciativas de respuesta ante la crisis en Venezuela.
+Este proyecto tiene como objetivo construir un sistema de procesamiento de datos para apoyar iniciativas de respuesta ante emergencias en Venezuela.
 
-El sistema recopila información no estructurada, como mensajes de redes sociales, informes de chats y publicaciones públicas en las que las personas solicitan ayuda, denuncian la desaparición de personas o comparten información sobre centros de ayuda.
+El sistema recopila información no estructurada proveniente de redes sociales, aplicaciones de mensajería y reportes manuales, donde las personas solicitan ayuda, reportan desapariciones o comparten información sobre centros de apoyo.
 
-El objetivo principal es transformar estos datos sin procesar e inconsistentes en un formato estructurado y fiable que puedan utilizar diferentes plataformas.
+El objetivo principal es transformar estos datos inconsistentes en un formato estructurado, fiable y reutilizable por diferentes plataformas.
 
 ### Cómo funciona
 
-El proceso sigue un flujo sencillo:
+El sistema sigue un pipeline sencillo de tipo ETL:
 
-1. Entrada (datos sin procesar)
-El sistema recibe datos de texto no estructurados procedentes de fuentes como redes sociales, aplicaciones de mensajería e informes manuales.
-Ejemplo:
-«mi hermana Ana López desaparecida en Valencia CI 12345678»
+1. Entrada (datos sin procesar)  
+Se reciben textos no estructurados desde diversas fuentes.  
+Ejemplo:  
+"mi hermana Ana López desaparecida en Valencia CI 12345678"
 
-2. Procesamiento (ETL)
-El sistema extrae información clave del texto:
-- Nombre
-- Número de identificación nacional (cédula)
-- Tipo de caso (desaparición, rescate, centro de ayuda)
+2. Procesamiento (ETL)  
+Se extrae información relevante del texto:
+- Nombre (informativo, no confiable como identificador)
+- Número de identificación (cédula, cuando esté disponible)
+- Tipo de caso (desaparición, rescate, centro de acopio)
 - Ubicación
 
-3. Salida
-Los datos procesados se convierten a un formato JSON estructurado:
+Además:
+- La cédula funciona como identificador principal cuando existe
+- Se genera un identificador de caso (`id_caso`) para cada registro
+
+3. Salida  
+Los datos se transforman en un formato JSON estructurado:
 
 ```json
 {
+  "id_caso": "",
+  "cedula": "",
   "tipo": "desaparecido",
   "nombre": "Ana Lopez",
-  "cedula": "12345678",
-  "ubicacion": "Valencia"
+  "ubicacion": "Valencia",
+  "fecha_registro": "2026-06-30"
 }
 ```
 
+### Consideraciones del sistema
 
-4. Objetivo final
-El objetivo es crear una fuente de datos limpia y unificada que:
+La cédula es el identificador más fiable
+Los nombres pueden contener errores y no se usan como clave
+En ausencia de cédula, se genera un identificador de caso único
+Se prioriza no perder información sobre eliminar duplicados
+El sistema trabaja bajo incertidumbre (datos incompletos o inconsistentes)
+
+### Objetivo final
+Construir una fuente de datos unificada que:
 
 Reduzca la duplicación y los errores
-Permita compartir datos entre plataformas
-Facilite la creación de API y sistemas en tiempo real para la respuesta humanitaria
+Permita compartir información entre plataformas
+Sirva como base para APIs y sistemas en tiempo real
+
 
 ------------------
 
@@ -50,44 +64,56 @@ ENG
 
 ## Overview
 
-This project focuses on building a data processing system to support crisis response efforts in Venezuela.
+This project aims to build a data processing system to support emergency response efforts in Venezuela.
 
-The system collects unstructured information such as social media messages, chat reports, and public posts where people request help, report missing persons, or share information about aid centers.
+The system collects unstructured information from social media, messaging platforms, and manual reports where people request help, report missing persons, or share information about aid centers.
 
-The main goal is to transform this raw and inconsistent data into a structured and reliable format that can be used by different platforms.
+The main goal is to transform inconsistent raw data into a structured, reliable format that can be used across multiple platforms.
 
 ### How it works
 
-The process follows a simple pipeline:
+The system follows a simple ETL pipeline:
 
 1. Input (raw data)  
-The system receives unstructured text data from sources such as social media, messaging apps, and manual reports.  
+Unstructured text is collected from different sources.  
 Example:  
 "mi hermana Ana Lopez desaparecida en Valencia CI 12345678"
 
 2. Processing (ETL)  
-The system extracts key information from the text:
-- Name
-- National ID (cédula)
-- Type of case (missing, rescue, aid center)
+Relevant information is extracted:
+- Name (informational, not reliable as an identifier)
+- National ID (cédula, when available)
+- Case type (missing, rescue, aid center)
 - Location
 
+Additionally:
+- The cédula is used as the primary identifier when available
+- A case identifier (`id_caso`) is generated for each record
+
 3. Output  
-The processed data is converted into a structured JSON format:
+Data is converted into structured JSON format:
 
 ```json
 {
+  "id_caso": "",
+  "cedula": "",
   "tipo": "desaparecido",
   "nombre": "Ana Lopez",
-  "cedula": "12345678",
-  "ubicacion": "Valencia"
+  "ubicacion": "Valencia",
+  "fecha_registro": "2026-06-30"
 }
 ```
+### System considerations
 
+The cédula is the most reliable identifier
+Names may contain errors and are not used as keys
+When no cédula is available, a unique case identifier is generated
+The system prioritizes not losing information over removing duplicates
+It operates under uncertainty (incomplete and inconsistent data)
 
-4. Final objective
-The objective is to build a clean and unified data source that:
+### Final objective
+To build a unified data source that:
 
 Reduces duplication and errors
 Enables data sharing across platforms
-Supports the creation of APIs and real-time systems for humanitarian response
+Serves as a base for APIs and real-time systems
