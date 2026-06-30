@@ -39,12 +39,6 @@ Crear una fuente de datos unificada que:
   - infraestructura
 - Genera outputs estructurados (JSON / Excel)
 
-###  Casos de uso
-
-- Emergencias naturales
-- Crisis humanitarias
-- Búsqueda de personas
-- Coordinación de ayuda ciudadana
 ---------
 
 ENG
@@ -87,9 +81,3 @@ Serves as a base for APIs and response tools
   - infrastructure
 - Generates structured outputs (JSON / Excel)
 
-###  Use Cases
-
-- Natural disasters
-- Humanitarian crises
-- Search and rescue
-- Coordination of citizen assistance
