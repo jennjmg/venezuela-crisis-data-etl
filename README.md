@@ -24,6 +24,27 @@ Crear una fuente de datos unificada que:
   "fecha_registro": ""
 }
 ```
+
+### Qué hace este sistema
+
+- Procesa mensajes de redes sociales
+- Extrae:
+  - nombres
+  - cédulas
+  - ubicaciones
+- Clasifica en categorías críticas:
+  - rescate
+  - desaparecido
+  - ayuda
+  - infraestructura
+- Genera outputs estructurados (JSON / Excel)
+
+###  Casos de uso
+
+- Emergencias naturales
+- Crisis humanitarias
+- Búsqueda de personas
+- Coordinación de ayuda ciudadana
 ---------
 
 ENG
@@ -50,3 +71,25 @@ Serves as a base for APIs and response tools
   "ubicacion": "",
   "fecha_registro": ""
 }
+```
+
+### What This System Does
+
+- Processes social media messages
+- Extracts:
+  - names
+  - ID numbers
+  - locations
+- Classifies into critical categories:
+  - rescue
+  - missing persons
+  - assistance
+  - infrastructure
+- Generates structured outputs (JSON / Excel)
+
+###  Use Cases
+
+- Natural disasters
+- Humanitarian crises
+- Search and rescue
+- Coordination of citizen assistance
