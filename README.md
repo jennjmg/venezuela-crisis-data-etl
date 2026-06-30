@@ -34,10 +34,4 @@ If you want to help, feel free to fork this repository or open issues.
   "ubicacion": "",
   "timestamp": "",
   "fuente": ""
-}```
-
-
-
-
-
-
+}
